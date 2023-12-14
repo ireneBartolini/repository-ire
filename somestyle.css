@@ -1,0 +1,47 @@
+body {
+ font-family: Times New Roman, Times, serif;
+ font-size: 14pt;
+ background: #FFF;
+ color: #000;
+}
+
+h1 {
+ font-size: 24pt;
+ border-bottom: 1px solid silver;
+ color: #009;
+}
+
+dt {
+ font-size: 10pt;
+ color: #006;
+}
+
+#clickMe {
+ background: #009;
+ color: white;
+ font-weight: bolder;
+ padding-right: 5px;
+ padding-left: 5px;
+ border: 3px;
+ border-color: gray;
+} 
+
+div {
+ margin-bottom: 10px;
+}
+
+li.item {
+ list-style-image: url("rss.jpg");
+ margin: 10px;
+ padding: 10px;
+}
+
+
+
+button {
+	  
+      border-radius: 0;
+       width: 40px;
+       height: 40px;
+        border: 1px solid black;
+}

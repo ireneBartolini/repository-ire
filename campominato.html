@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Campo minato</title>
+		<link rel="StyleSheet" href="styles/somestyle.css" type="text/css" media="all" />
+		<script type="text/javascript" src="./react-libs/babel.js"></script>
+		<script type="text/javascript" src="./react-libs/react.js"></script>
+		<script type="text/javascript" src="./react-libs/react_dom.js"></script>
+		<script type="text/javascript" src="./scripts/inizializzaGriglia.js"></script>
+		<script type="text/javascript" src="./scripts/utils.js"></script>
+	   <script type="text/javascript" src="./scripts/rivelaCella.js"></script>
+	
+	</head>
+
+	<body>
+		 <div id="root"></div>
+		
+		      <script src="./react-components/Configuration.js" type="text/babel"></script>
+    		 <script src="./react-components/App.js" type="text/babel"></script>
+    		 <script src="./react-components/Griglia.js" type="text/babel"></script>
+    		  <script src="./react-components/Display.js" type="text/babel"></script>
+    		 
+    		 <script type="text/babel">
+    		 	ReactDOM.render(
+  					<React.StrictMode>
+    					<App/>
+  					</React.StrictMode>,
+  					document.getElementById('root')
+			 	);
+		</script>
+		
+		
+		
+	</body>
+</html>
